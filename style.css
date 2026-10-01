@@ -278,13 +278,13 @@ select {
   left: 0;
 }
 
-.discount_tag {
-  visibility: hidden;
+.product_list_container .discount_tag {
+  font-size: 1rem;
+  color: red;
 }
 
-.discount .discount_tag {
-  opacity: 80%;
-  visibility:visible;
+em {
+  opacity: 70%;
   position: absolute;
   background-color: rgb(255, 16, 16);
   color: white;

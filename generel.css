@@ -47,10 +47,6 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-     .product img {
-        margin-top: -15%;
-    }
-
     .product {
         display: grid;
         grid-template-columns: 1.5fr 1.5fr 1fr;
