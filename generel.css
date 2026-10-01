@@ -1,0 +1,74 @@
+@media (min-width: 1000px) {
+    .category_list_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main {
+        margin-inline: 15%;
+    }
+
+    header {
+        margin-inline: 15%;
+    }
+
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .menu a {
+        border-radius: 5px;
+        padding: 10px 4px;
+    }
+
+    .menu a:hover {
+    color: #4a6dc0;
+    text-decoration: underline solid #e4efff;
+  }
+
+
+    .burger {
+        display: none;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .product_list_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+     .product img {
+        margin-top: -15%;
+    }
+
+    .product {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1fr;
+        gap: 1rem;
+    }
+
+    .product_content {
+        display: grid;
+        grid-template-rows: 0fr 0fr 0fr 0fr;
+        height: fit-content;
+    }
+
+    .fuck {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .crumsti {
+        margin-inline: 15% 60%;
+        z-index: 2;
+    }
+}
